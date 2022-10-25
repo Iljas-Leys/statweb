@@ -1,0 +1,110 @@
+/* Background + main */
+html{
+    background-color: #e6e6e6;
+}
+#main{
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #fff;
+}
+/* Top nav + footer*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #f04c25;
+}
+.headerFooterText{
+    text-align: center;
+    padding: 14px 16px;
+    margin: 0px;
+    color:white;
+    font-weight: bolder;
+}
+header, footer{
+    background-color: #008693;
+    overflow: auto;
+}
+header{
+    border-bottom: solid 5px #f04c25;
+}
+footer{
+    border-top: solid 5px #f04c25;
+}
+#headerText{
+    float: left;
+}
+#footerText{
+    float: right;
+}
+/* Content */
+#content{
+    padding: 10px;
+    overflow: auto
+}
+#imgDJ{
+    float: right;
+    margin: 20px;
+}
+#imgKoptelefoon{
+    display: block;
+    margin: auto;
+}
+#soundcloud{
+    background-color: #f04c25;
+    text-align: center;
+    padding: 14px 16px;
+}
+#soundcloud a{
+    text-decoration: none;
+    color: white;
+}
+#kolomFoto{
+    float: left;
+    width: 400px;
+}
+#kolomLinks{
+    float:left;
+    display: block;
+    width: 600px;
+}
+#draaitafel{
+    float:right;
+    width: 300px;
+}
+#contactKolom1{
+    float: left;
+    width: 500px;
+}
+#contactKolom2{
+    float: left;
+    width: 300px;
+    margin-left: 10px;
+}
+input, textarea{
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    width: 95%;
+}
+#submit{
+    background-color: #f04c25;
+    text-align: center;
+    padding: 14px 16px;
+    border: none;
+    color:white;
+    width: 100%;
+}

@@ -1,0 +1,27 @@
+#voornaam, #familienaam, #adres, #provincie, #submit{
+    background-color: green;
+}
+
+#provincie{
+    color: white;
+}
+
+div{
+    margin: 15px;
+}
+
+fieldset{
+    border: solid 3px green;
+    border-radius: 25px;
+    width: 300px;
+    padding: 15px;
+}
+
+#submit{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: none;
+    color: white;
+}
