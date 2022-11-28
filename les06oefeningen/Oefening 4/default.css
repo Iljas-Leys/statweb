@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.rij, .kolom{
+    box-sizing: border-box;
+}
+.kolom{
+    padding: 15px;
+}
+@media all and (min-width: 500px){
+    .kolom{
+        float: left;
+    }
+    #rij1 > .kolom1{
+        width: 60%;
+    }
+    #rij1 > .kolom2{
+        width: 40%;
+    }
+    #rij2 > .kolom{
+        width: 25%;
+    }
+}
+@media all and (max-width: 500px){
+    .kolom{
+        width: 100%;
+    }
+}

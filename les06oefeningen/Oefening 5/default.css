@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header, footer, nav, main{
+    padding: 5px;
+    box-sizing: border-box;
+}
+header, footer{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#tekstHeader{
+    font-size: 50px;
+}
+
+/* Midden */
+#midden{
+    overflow: hidden;
+}
+nav, main{
+    float: left;
+    height: 500px;
+}
+nav{
+    width: 30%;
+    background-color: lightgray;
+}
+main{
+    width: 70%
+}
+li{
+    font-size: 24px;
+    margin: 5px;
+    list-style: none;
+}
+/* Footer */
+#tekstFooter{
+    color: white;
+}
